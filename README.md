@@ -1,7 +1,7 @@
 # python-OOP-Lec13-07-MAY-25
 Object-Oriented Programming -Into
 * 3 core principles of what is OOP:
-  * class= define the pattern(blueprint) of the instance
+  * class= define the pattern(blueprint) of the instance, every class is a module
   * object (entity) = created instance of the class
   * encapsulation (הסתרה, הכמסה)= public/protected/private
   * inheritance= mechanism that allows one class (called a subclass or child class)
@@ -17,3 +17,27 @@ and promote best practices in OOP.
   * D — Dependency Inversion Principle (DIP)
 * Methods= functions that describe the behaviors of the object
 * Attributes (data)= properties definitions represent the state of the object
+* dunder abilities:
+  * Car.__dict__= reflection= investigate the class. is used to give more functionality.
+    * usually within the class
+  * __add__= to define an ability to concat objects
+* c1=Car()= to create instance from Car class
+* ways to import the class:
+```
+  #1.
+  import car
+  print(car.Car.speed)
+  #2. 
+  from car import *
+  print(Car.speed)
+  #3.
+  from car import Car
+  print(Car.color)
+  #4.
+  from car import Car as Ca
+  print(Ca.type)
+```
+* ctrl+B = to open the class
+* function type(obj1)=
+ ![img.png](img.png)
+ ![img_1.png](img_1.png)
