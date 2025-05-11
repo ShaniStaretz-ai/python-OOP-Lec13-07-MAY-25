@@ -2,7 +2,9 @@
 Object-Oriented Programming -Into
 * 3 core principles of what is OOP:
   * class= define the pattern(blueprint) of the instance, every class is a module
+    * start with Capital letter
   * object (entity) = created instance of the class
+    * start with small letter.
   * encapsulation (הסתרה, הכמסה)= public/protected/private
   * inheritance= mechanism that allows one class (called a subclass or child class)
   * polymorphism= the ability of different objects to respond to the same method call in different ways.
